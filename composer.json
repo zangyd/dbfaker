@@ -1,0 +1,28 @@
+{
+  "name": "zangyd/dbfaker",
+  "description": "为数据库制造测试数据",
+  "authors": [
+    {
+      "name": "Zachary",
+      "email": "zacharyzang77@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/zangyd/dbfaker/issues?state=open",
+    "source": "https://github.com/zangyd/dbfaker"
+  },
+
+  "require": {
+    "fzaninotto/faker": "^1.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "zangyd\\dbfaker\\": "src"
+    }
+  }
+
+}
